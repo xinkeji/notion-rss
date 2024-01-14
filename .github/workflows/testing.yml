@@ -6,8 +6,8 @@ env:
   NOTION_RSS_KEY: ${{ secrets.NOTION_API_TOKEN }}
 
   # Required: Manually share database with the notion integration with api key `NOTION_RSS_KEY`.
-  NOTION_RSS_CONTENT_DATABASE_ID: "7ce7588a89734b8081cbb4869ba36460"
-  NOTION_RSS_FEEDS_DATABASE_ID: "44d719ce002943deada2cf7d91d32274"
+  NOTION_RSS_CONTENT_DATABASE_ID: "59562b42875c4417af24a281c1c08d20"
+  NOTION_RSS_FEEDS_DATABASE_ID: "9becad6f3e8b4aa7ae21e74b60e1bde4"
 
 jobs:
   test-code:
